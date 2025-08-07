@@ -13,8 +13,15 @@ Context
 - The first trace *Parallel cold emails* is to use gpt-4o-mini to write three cold emails for a professional sales agent, a engaging sales agent and a busy sales agent. This process is to run multiple asynchronous tasks concurrently and to gather results of all the tasks as a list.  
 - The second trace *Selection from sales people* is to use gpt-4o-mini to select the best email among three cold emails from a professional sales agent, a engaging sales agent and a busy sales agent as the ones in the first trace.  
 - The third trace *Sales manager* is to use gpt-4o-mini to select the best email as the ones in step 2 and also to send this email based on SendGrid to a defined email address. This process is to wrap a function with the decorator `@function_tool` and also to convert an agent into a tool.      
-- The fourth trace *Automated SDR* is to enable to run gpt-4o-mini models/three sales_agent tools multiple times to generate drafts if the drafts are not satisfying at the first attempt and then to select the best email, and also to use a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.        
-<img width="1197" height="346" alt="image" src="https://github.com/user-attachments/assets/c80bbfb6-f101-443d-ad24-f588947c2f33" />  
+- The fourth trace *Automated SDR* is to enable to run gpt-4o-mini models/three sales_agent tools multiple times to generate drafts if the drafts are not satisfying at the first attempt and then to select the best email, and also to use a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.
+results for the four traces       
+<img width="1197" height="346" alt="image" src="https://github.com/user-attachments/assets/c80bbfb6-f101-443d-ad24-f588947c2f33" />
+The best email for the third trace
+<img width="2581" height="705" alt="image" src="https://github.com/user-attachments/assets/96407ecb-5bcf-44c1-a13b-ac05cc65b4c8" />
+The best email for the fourth trace
+<img width="2146" height="766" alt="image" src="https://github.com/user-attachments/assets/5d03a8ff-247b-48a9-b389-c94eecbece3d" />  
+
+  
      
 ## lab 3         
 Context        
@@ -30,7 +37,12 @@ The first trace *Automated SDR*
 The first run for the second trace *Protected Automated SDR*    
 <img width="1103" height="890" alt="image" src="https://github.com/user-attachments/assets/2b592fbc-dd20-4f2f-972e-cf7bf566715b" />  
 The second run for the second trace *Protected Automated SDR*    
-<img width="1077" height="1014" alt="image" src="https://github.com/user-attachments/assets/16dcd011-e775-456d-9ef0-fa4c8c29e13b" />
+<img width="1077" height="1014" alt="image" src="https://github.com/user-attachments/assets/16dcd011-e775-456d-9ef0-fa4c8c29e13b" />  
+The best email in the first trace  
+<img width="1881" height="622" alt="image" src="https://github.com/user-attachments/assets/ea2dd8f5-e694-4413-8460-8ab4ef53b302" />  
+The best email in the second run in the second trace  
+<img width="1900" height="736" alt="image" src="https://github.com/user-attachments/assets/5096302c-f5c9-442d-9fbc-866dc81ec3c7" />
+  
 
 
 
