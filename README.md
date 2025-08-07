@@ -30,8 +30,8 @@ Context
 - The second trace *Protected Automated SDR* is to check whether a request has info about a someone's personal name before starting a workflow as the one in the first trace.
 The check is about checking an input guardrail.  
 This trace has been reran twice.       
-The first run is to send a request with info containing a someone's personal name. It stops running a workflow as the one in the first trace after a check fails and before using a handoff to take care of formatting.      
-The second run is to send a request with info without a someone's personal name. It completes a workflow as the ones in the first trace after a check passes.      
+The first run is about a request with info containing a someone's personal name. It stops running a workflow as the one in the first trace after a check fails and before using a handoff to take care of formatting.      
+The second run is about a request with info without a someone's personal name. It completes a workflow as the ones in the first trace after a check passes.      
 The first trace *Automated SDR*    
 <img width="1068" height="1002" alt="image" src="https://github.com/user-attachments/assets/00675326-1589-4a83-b675-3af173bf05ad" />  
 The first run for the second trace *Protected Automated SDR*    
