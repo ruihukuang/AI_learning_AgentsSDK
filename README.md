@@ -18,7 +18,7 @@ Context
      
 ## lab 3         
 Context        
-3 traces are created.      
+2 traces are created.      
 - The first trace *Automated SDR* is to enable to run models including deepseek-chat, gemini-2.0-flash and llama-3.3-70b-versatile/three sales_agent tools three times at most to generate drafts if the drafts are not satisfying at the first attempt and then to select the best email, and also to use a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.     
 - The second trace *Protected Automated SDR* is to check whether a request has info about a someone's personal name before starting the workflows as the one in the first trace.
 This trace has been reran twice.       
