@@ -10,23 +10,32 @@ Trace results
 ## lab 2  
 Context  
 4 traces are created. 
-- The first trace *Parallel cold emails* is to use gpt-4o-mini to write three cold emails for a professional sales agent, a engaging sales agent and a busy sales agent. This process is to run multiple asynchronous tasks concurrently and to gather results of all the tasks as a list.  
-- The second trace *Selection from sales people* is to use gpt-4o-mini to select the best email among three cold emails from a professional sales agent, a engaging sales agent and a busy sales agent as the ones in the first trace.  
-- The third trace *Sales manager* is to use gpt-4o-mini to select the best email as the ones in step 2 and also to send this email based on SendGrid to a defined email address. This process is to wrap a function with the decorator `@function_tool` and also to convert an agent into a tool.      
-- The fourth trace *Automated SDR* is to enable to run gpt-4o-mini models/three sales_agent tools multiple times to generate drafts if the drafts are not satisfying at the first attempt and then to select the best email, and also to use a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.  
-Results for these four traces         
-<img width="1197" height="346" alt="image" src="https://github.com/user-attachments/assets/c80bbfb6-f101-443d-ad24-f588947c2f33" />
-The best email for the third trace
-<img width="2581" height="705" alt="image" src="https://github.com/user-attachments/assets/96407ecb-5bcf-44c1-a13b-ac05cc65b4c8" />
-The best email for the fourth trace
-<img width="2146" height="766" alt="image" src="https://github.com/user-attachments/assets/5d03a8ff-247b-48a9-b389-c94eecbece3d" />  
+- The first trace *Parallel cold emails*
+  It uses gpt-4o-mini to write three cold emails for a professional sales agent, a engaging sales agent and a busy sales agent. This process is to run multiple asynchronous tasks concurrently and to gather results of all the tasks as a list.  
+- The second trace *Selection from sales people*  
+  It uses gpt-4o-mini to select the best email among three cold emails from a professional sales agent, a engaging sales agent and a busy sales agent as the ones in the first trace.    
+- The third trace *Sales manager*  
+  It uses gpt-4o-mini to select the best email as the ones in step 2 and also to send this email based on SendGrid to a defined email address. This process is to wrap a function with the decorator `@function_tool` and also to convert an agent into a tool.        
+- The fourth trace *Automated SDR*  
+  It enables to run gpt-4o-mini models/three sales_agent tools multiple times to generate drafts if the drafts are not satisfying at the first attempt.  
+  Then it selects the best email.  
+  Finally, it uses a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.    
+Results for these four traces               
+<img width="1197" height="346" alt="image" src="https://github.com/user-attachments/assets/c80bbfb6-f101-443d-ad24-f588947c2f33" />  
+The best email for the third trace  
+<img width="2581" height="705" alt="image" src="https://github.com/user-attachments/assets/96407ecb-5bcf-44c1-a13b-ac05cc65b4c8" />  
+The best email for the fourth trace  
+<img width="2146" height="766" alt="image" src="https://github.com/user-attachments/assets/5d03a8ff-247b-48a9-b389-c94eecbece3d" />   
 
   
      
 ## lab 3         
 Context        
 2 traces are created.      
-- The first trace *Automated SDR* is to enable to run models including deepseek-chat, gemini-2.0-flash and llama-3.3-70b-versatile/three sales_agent tools three times at most to generate drafts if the drafts are not satisfying at the first attempt and then to select the best email, and also to use a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.     
+- The first trace *Automated SDR*
+  It enables to run models including deepseek-chat, gemini-2.0-flash and llama-3.3-70b-versatile/three sales_agent tools three times at most to generate drafts if the drafts are not satisfying at the first attempt.  
+  Then to select the best email.
+  Finally, it uses a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.     
 - The second trace *Protected Automated SDR* is to check whether a request of writing an email has info about a someone's personal name before starting a workflow as the one in the first trace.
 The check is about checking an input guardrail.  
 This trace has been reran twice.       
