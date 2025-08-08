@@ -1,5 +1,6 @@
 # AI_platform_AgentsSDK  
-## lab 1
+
+## lab 1  
 Context   
 OpenAI Agents SDK is used to make an agent with name, instructions and a model gpt-4o-mini. This agent is to tell a joke about Autonomous AI Agents. The tracing is built to enable visualizing and debuging agentic flows.  
 Agent running results  
@@ -26,9 +27,7 @@ The best email for the third trace
 <img width="2581" height="705" alt="image" src="https://github.com/user-attachments/assets/96407ecb-5bcf-44c1-a13b-ac05cc65b4c8" />  
 The best email for the fourth trace  
 <img width="2146" height="766" alt="image" src="https://github.com/user-attachments/assets/5d03a8ff-247b-48a9-b389-c94eecbece3d" />   
-
-  
-     
+    
 ## lab 3         
 Context        
 2 traces are created.      
@@ -50,7 +49,8 @@ The second run for the second trace *Protected Automated SDR*
 The best email in the first trace  
 <img width="1881" height="622" alt="image" src="https://github.com/user-attachments/assets/ea2dd8f5-e694-4413-8460-8ab4ef53b302" />  
 The best email in the second run in the second trace  
-<img width="1900" height="736" alt="image" src="https://github.com/user-attachments/assets/5096302c-f5c9-442d-9fbc-866dc81ec3c7" />  
+<img width="1900" height="736" alt="image" src="https://github.com/user-attachments/assets/5096302c-f5c9-442d-9fbc-866dc81ec3c7" />
+  
 ## lab 4    
 Context   
 1 trace is created.    
