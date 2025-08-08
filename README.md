@@ -35,7 +35,7 @@ Context
 - The first trace *Automated SDR*
   It enables to run models including deepseek-chat, gemini-2.0-flash and llama-3.3-70b-versatile/three sales_agent tools three times at most to generate drafts if the drafts are not satisfying at the first attempt.  
   Then to select the best email.
-  Finally, it uses a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email based on SendGrid.     
+  Finally, it uses a handoff with the use of gpt-4o-mini to act as a Email Manager to take care of formatting including converting the best email to HTML and creating a subject before sending the email using SendGrid.     
 - The second trace *Protected Automated SDR* is to check whether a request of writing an email has info about a someone's personal name before starting a workflow as the one in the first trace.
 The check is about checking an input guardrail.  
 This trace has been reran twice.       
@@ -50,8 +50,28 @@ The second run for the second trace *Protected Automated SDR*
 The best email in the first trace  
 <img width="1881" height="622" alt="image" src="https://github.com/user-attachments/assets/ea2dd8f5-e694-4413-8460-8ab4ef53b302" />  
 The best email in the second run in the second trace  
-<img width="1900" height="736" alt="image" src="https://github.com/user-attachments/assets/5096302c-f5c9-442d-9fbc-866dc81ec3c7" />
-  
+<img width="1900" height="736" alt="image" src="https://github.com/user-attachments/assets/5096302c-f5c9-442d-9fbc-866dc81ec3c7" />  
+## lab 4    
+Context   
+1 trace is created.    
+The trace *Research trace* has 4 agents.    
+The first agent *Planner Agent* is to come up with 3 web search terms to perform to best answer the query and provide reasons for the search terms. The query is Latest AI Agent frameworks in 2025.  
+The second agent *Search agent* is to search the web for search terms from the first agent and produce a concise summary of the results for all 3 search terms.  
+The third agent *Writer Agent* is to write a cohesive report based on results of the second agent.   
+The fourth agent *Email agent* is to send an email based on the results of the third agent. The email is sent to my email using SendGrid.  
+Console results    
+<img width="614" height="477" alt="image" src="https://github.com/user-attachments/assets/6f093a1c-0b99-47cc-a8a2-9fa09f481655" />   
+Trace results  
+<img width="634" height="478" alt="image" src="https://github.com/user-attachments/assets/5d71d1a5-9e29-4e28-8e2d-5708c1e1ac1a" />  
+A report sent to an email  
+<img width="964" height="526" alt="image" src="https://github.com/user-attachments/assets/f4cedde4-3441-487b-916b-1dd47bcc57fc" />  
+
+
+
+
+
+
+
 
 
 
