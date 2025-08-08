@@ -66,6 +66,11 @@ Trace results
 A report sent to an email  
 <img width="964" height="526" alt="image" src="https://github.com/user-attachments/assets/f4cedde4-3441-487b-916b-1dd47bcc57fc" />  
 
+Create a UI for the process in lab 4  
+<img width="1266" height="659" alt="image" src="https://github.com/user-attachments/assets/74710067-eb8b-42ea-aa82-0ba541273b42" />  
+
+
+
 
 
 
