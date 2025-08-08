@@ -64,10 +64,10 @@ Console results
 Trace results  
 <img width="634" height="478" alt="image" src="https://github.com/user-attachments/assets/5d71d1a5-9e29-4e28-8e2d-5708c1e1ac1a" />  
 A report sent to an email  
-<img width="964" height="526" alt="image" src="https://github.com/user-attachments/assets/f4cedde4-3441-487b-916b-1dd47bcc57fc" />  
+<img width="964" height="526" alt="image" src="https://github.com/user-attachments/assets/f4cedde4-3441-487b-916b-1dd47bcc57fc" />   
 
-Create a UI for the process in lab 4  
-<img width="1266" height="659" alt="image" src="https://github.com/user-attachments/assets/74710067-eb8b-42ea-aa82-0ba541273b42" />  
+## Create a UI for the process in lab 4    
+<img width="1266" height="659" alt="image" src="https://github.com/user-attachments/assets/74710067-eb8b-42ea-aa82-0ba541273b42" />    
 
 
 
