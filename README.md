@@ -12,7 +12,7 @@ Trace results
 Context  
 4 traces are created. 
 - The first trace *Parallel cold emails*
-  It uses gpt-4o-mini to write three cold emails for a professional sales agent, a engaging sales agent and a busy sales agent. This process is to run multiple asynchronous tasks concurrently and to gather results of all the tasks as a list.  
+  It uses gpt-4o-mini to write three cold emails for a professional sales agent, an engaging sales agent and a busy sales agent. This process is to run multiple asynchronous tasks concurrently and to gather results of all the tasks as a list.  
 - The second trace *Selection from sales people*  
   It uses gpt-4o-mini to select the best email among three cold emails from a professional sales agent, a engaging sales agent and a busy sales agent as the ones in the first trace.    
 - The third trace *Sales manager*  
